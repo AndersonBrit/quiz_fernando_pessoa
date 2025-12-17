@@ -1,0 +1,53 @@
+Descrição do diagrama do modelo Relacional usado na criação da base de dados:
+
+
+
+1. Utilizador:
+
+- ID_Utilizador (PK)
+- Data_Registo
+- Turma
+- Nome
+
+É a tabela principal que identifica cada jogador.
+
+
+2. Pontuacao:
+
+- ID_Pontuacao (PK)
+- Pontuacao_Total
+- ID_Utilizador (FK)
+
+Guarda a pontuação total de cada utilizador.
+Relaciona-se diretamente com a tabela Utilizador.
+
+
+3. Pergunta:
+
+- ID_Pergunta (PK)
+- N
+- Tipo
+- Conteudo
+
+Cada registo é uma pergunta do quiz.
+
+
+4. Opcao:
+
+- ID_Opcao (PK)
+- Certa
+- Conteudo
+- ID_Pergunta (FK)
+
+Cada pergunta tem várias opções, e apenas uma é marcada como Certa.
+
+
+5. Resposta:
+
+- ID_Resposta (PK)
+- Pontuacao
+- Acertou
+- ID_Opcao (FK)
+- ID_Utilizador (FK)
+
+Regista a escolha de um utilizador, incluindo se acertou e a pontuação ganha.
