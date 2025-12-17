@@ -1,5 +1,8 @@
 # Quiz Fernando Pessoa (Pygame + MySQL)
-![Banner](assets/app/imagens/8.Titulo.png)
+
+<p align="center">
+  <img src="assets/app/imagens/8.Titulo.png" alt="Banner" width="600">
+</p>
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![MySQL](https://img.shields.io/badge/mysql-5.7+-green)
@@ -18,43 +21,48 @@ Projeto educativo de um quiz sobre Fernando Pessoa, desenvolvido em Python com i
 1. **Menu Principal**  
 Interface inicial do quiz, onde o utilizador pode iniciar o jogo ou aceder ao leaderboard.  
 
-![Menu Principal](assets/app/imagens/1.Menu.png)
+<img src="assets/app/imagens/1.Menu.png" alt="Menu Principal" width="400">
+
 ---
 
 2. **Leaderboard**  
 Mostra as melhores pontuações registadas pelos utilizadores.  
 
-![Leaderboard](assets/app/imagens/2.Leaderboard.png)
+<img src="assets/app/imagens/2.LeaderBoard.png" alt="Leaderboard" width="400">
 ---
 
 3. **Criação de Utilizador**  
 Permite criar um novo utilizador, inserindo o nome e a turma.  
 
-![Criação de Utilizador](assets/app/imagens/3.Criação_Utilizador.png)
+<img src="assets/app/imagens/3.Criação_Utilizador.png" alt="Criação de Utilizador" width="400">
+
 ---
 
 4. **Criação de Utilizador com Informação**  
 Confirmação do registo com os detalhes do utilizador preenchidos.  
 
-![Criação de Utilizador Info](assets/app/imagens/4.Criação_Utilizador_Info.png)
+<img src="assets/app/imagens/4.Criação_Utilizador_Info.png" alt="Criação de Utilizador Info" width="400">
+
 ---
 
 5. **Perguntas e Respostas**  
 Apresenta uma pergunta com múltiplas opções de resposta ao utilizador.  
 
-![Perguntas e Respostas](assets/app/imagens/5.Perguntas_Respostas.png)
+<img src="assets/app/imagens/5.Perguntas_Respostas.png" alt="Perguntas e Respostas" width="400">
+
 ---
 
 6. **Perguntas Respondidas**  
 Mostra as respostas já selecionadas pelo utilizador durante o quiz.  
 
-![Perguntas Respondidas](assets/app/imagens/6.Perguntas_Respondidas.png)
+<img src="assets/app/imagens/6.Perguntas_Respondidas.png" alt="Perguntas Respondidas" width="400">
+
 ---
 
 7. **Fim de Jogo**  
 Apresenta a pontuação final do utilizador após completar o quiz.
 
-![Fim de Jogo](assets/app/imagens/7.Fim_Jogo.png)
+<img src="assets/app/imagens/7.Fim_Jogo.png" alt="Fim de Jogo" width="400">
 
 ---
 
