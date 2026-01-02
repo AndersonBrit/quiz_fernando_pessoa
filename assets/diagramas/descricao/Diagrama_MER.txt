@@ -1,0 +1,67 @@
+Descrição do diagrama do modelo MER usado na criação da base de dados:
+
+
+
+Entidades e Atributos:
+
+
+Utilizador
+Representa um jogador ou participante.
+
+Atributos:
+- ID_Utilizador (PK)
+- Data_Registo
+- Turma
+- Nome
+
+
+Pontuacao
+Guarda a pontuação total de cada utilizador.
+
+Atributos:
+- ID_Pontuacao (PK)
+- Pontuacao_Total
+
+
+Pergunta
+Representa cada pergunta do quiz.
+
+Atributos:
+- ID_Pergunta (PK)
+- N (número/ordem da pergunta)
+- Tipo
+- Conteudo
+
+
+Opcao
+Cada opção pertencente a uma pergunta.
+
+Atributos:
+- ID_Opcao (PK)
+- Certa (se é a resposta correta)
+- Conteudo
+
+
+Resposta
+Cada resposta dada por um utilizador.
+
+Atributos:
+- ID_Resposta (PK)
+- Pontuacao
+- Acertou
+
+
+
+Relações:
+
+Utilizador — Pontuacao:
+Ligação 1:N → um utilizador tem uma pontuação total.
+
+Utilizador — Resposta:
+Ligação 1:N → um utilizador pode dar muitas respostas.
+
+Pergunta — Opcao:
+Ligação 1:N → cada pergunta tem várias opções associadas.
+
+Opcao — Resposta:
+Ligação 1:N → cada resposta corresponde a uma opção selecionada.
