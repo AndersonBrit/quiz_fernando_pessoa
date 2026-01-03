@@ -139,22 +139,17 @@ git clone https://github.com/AndersonBrit/quiz-fernando-pessoa.git
 cd quiz-fernando-pessoa
 ````
 
-2. **Install dependencies:**
+2. **Create the MySQL database:**
+
+Add in data base:
 
 ```bash
-pip install -r requirements.txt
+    sql/inserts/
+    sql/schema/
+    sql/views/
 ```
 
-3. **Configure the MySQL database:**
-
-```sql
-source sql/sql.sql;
-source sql/insert.sql;
-```
-
-Make sure to update `src/config.py` with your MySQL credentials.
-
-4. **Run the game:**
+3. **Run the game:**
 
 ```bash
 python src/run.py

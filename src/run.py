@@ -1,29 +1,30 @@
 # src/run.py
 
-from db import DB              # Importa a classe DB para gerir a base de dados
-from quiz import QuizGame      # Importa a classe principal do jogo Quiz
-from config import DB_CONFIG   # Importa a configuração da base de dados
+from db import DB              # Imports the DB class to manage the database
+from quiz import QuizGame      # Imports the main Quiz game class
+from config import DB_CONFIG   # Imports the database configuration
 
 
 # -----------------------------
-# Função principal que inicia o jogo
+# Main function to start the game
 # -----------------------------
 def main():
-    db = DB(config=DB_CONFIG)               # Cria uma instância da base de dados com as configurações
-    game = QuizGame(db, max_questions=20)  # Cria uma instância do jogo, com 20 perguntas máximas
+    db = DB(config=DB_CONFIG)               # Creates a database instance using the configuration
+    game = QuizGame(db, max_questions=20)  # Creates a QuizGame instance with a maximum of 20 questions
     
     try:
-        game.run()  # Inicia o loop principal do jogo (controla eventos, desenho, lógica)
-    except KeyboardInterrupt:  # Permite interromper o programa com Ctrl+C
-        print("Programa terminado pelo utilizador.")
-    finally:  # Garante que a base de dados é fechada no final, mesmo se ocorrer erro
+        game.run()  # Starts the main game loop (handles events, drawing, and game logic)
+    except KeyboardInterrupt:  # Allows the program to be interrupted with Ctrl+C
+        print("Program terminated by the user.")
+    finally:  # Ensures the database is closed at the end, even if an error occurs
         try:
             db.close()
         except:
-            pass  # Ignora erros ao fechar a base de dados
+            pass  # Ignores errors when closing the database
+
 
 # -----------------------------
-# Ponto de entrada do programa
+# Program entry point
 # -----------------------------
 if __name__ == "__main__":
-    main()  # Chama a função principal quando o script é executado diretamente
+    main()  # Calls the main function when the script is executed directly
