@@ -1,4 +1,4 @@
-<h1 align="center">Fernando Pessoa Quiz (Pygame + MySQL)</h1>
+<h1 align="center">Quiz Fernando Pessoa (Pygame + MySQL)</h1>
 
 <p align="center">
   <img src="docs\media\app\imagens\8_title.png" alt="Banner" width="600">
