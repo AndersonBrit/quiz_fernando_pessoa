@@ -170,11 +170,11 @@ This project was developed for educational purposes in the context of the PSI su
 
 ## Authorship
 
-Project developed as part of the professional course
-**Management and Computer Systems Programming (GPSI)**
+Project developed as part of the professional course  
+**Management and Computer Systems Programming (GPSI)**  
 
-**School:** Escola Profissional Bento Jesus Caraça (EPBJC)
-**Subject:** PSI
+**School:** Escola Profissional Bento Jesus Caraça (EPBJC)  
+**Subject:** PSI  
 **Author:** Andérson Brito
 
 ---
